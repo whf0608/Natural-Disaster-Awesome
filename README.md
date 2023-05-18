@@ -1,4 +1,4 @@
-[Development of Natural Disaster Research Technology](005.png)
+![Development of Natural Disaster Research Technology](005.png)
 
 
 ## 1. Natural Disaster Damaged Buildings Datasets
