@@ -94,6 +94,7 @@
 ### 2.1. [RoadDetection](https://github.com/ruoyxue/RoadDetectionApp/pulse)
 ### 2.2. ⚡️[MapFlow](https://mapflow.ai/) 
 ### 2.3. [Spatial imagery labeling toolkit](https://github.com/microsoft/satellite-imagery-labeling-tool)
+### 2.4. [anylabeling](https://github.com/vietanhdev/anylabeling/)
 
 ## 3. Research Labs of Natural Disaster
 #### 3.1. [Disaster Data Science Lab](https://github.com/DDS-Lab) ([Homepage](https://www.ddslab.info/))
@@ -114,21 +115,71 @@
 #### 4.8. [Lists of earthquakes](https://en.wikipedia.org/wiki/Lists_of_earthquakes)  [Natural_disaster](https://en.wikipedia.org/wiki/Natural_disaster)
 #### 4.9. [China Emergency Information（中国应急信息网）](https://www.emerinfo.cn/znjs/hz/jstb.htm)
 
-## 5. Models
-### 5.1 Buildings Detection Models
+# 5. Models
+### 5.1 Buildings Segmention Models
 #### 5.1.1 [CBRNet](https://github.com/HaonanGuo/CBRNet) 
 #### 5.1.2 [Building Damage Assessment Model](https://github.com/microsoft/building-damage-assessment-cnn-siamese)
 
 ### 5.2 Segmention Models
-#### 5.2.1 [Mask2Former](https://github.com/facebookresearch/Mask2Former)
-#### 5.2.2 [mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+#### 5.2.1 🔥[Mask2Former](https://github.com/facebookresearch/Mask2Former)
+#### 5.2.2 🔥[mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
+#### 5.2.3 🔥[DAFormer](https://github.com/lhoyer/DAFormer) 
 
+### 5.3 Disasters damaged Segmention Models
+#### 5.3.2 [CollapseView](https://github.com/tudoriliuta/CollapseView) [code](https://github.com/tudoriliuta/CollapseView) [data](https://github.com/tudoriliuta/CollapseView) 2017
+#### 5.3.3 [xview2unet](https://github.com/canktech/xview2unet)
+#### 5.3.4 [improved U-Net](https://www.nature.com/articles/s41598-022-20114-w) (2022,scientific reports)
+#### 5.3.5 🔥[BDD-Net+](https://ieeexplore.ieee.org/document/10103581) (2023,jstar)
+#### 5.3.6 [Test Backbone](https://www.sciencedirect.com/science/article/pii/S2352710222013274) (2022,Journal of Building Engineering)
+#### 5.3.7 [Intra-Cluster-Classification](https://www.sciencedirect.com/science/article/pii/S0045790622007510) (2023,Computers and Electrical Engineering)
+#### 5.3.8 [Backbone + attention](https://www.sciencedirect.com/science/article/pii/S095741742200639X)
 
-### 5.3 Disasters Detection Models
-#### 5.3.1 [Multi3Net](https://github.com/FrontierDevelopmentLab/multi3net)
+### 5.4 Disasters damaged Change Detection
+#### 5.4.1 🔥[ChangeOS](https://github.com/Z-Zheng/ChangeOS) [code](https://github.com/Z-Zheng/ChangeOS) (2021,Remote Sensing of Environment)
+#### 5.4.2 [BDD-Net](https://www.mdpi.com/2072-4292/12/10/1670) (2020, remote sensing)
+#### 5.4.3 [xView2_fifth_plac](https://github.com/DIUx-xView/xView2_fifth_place) [code](https://github.com/DIUx-xView/xView2_fifth_place) 2020
+#### 5.4.4 [Siam-U-Net-Attn model](https://ieeexplore.ieee.org/abstract/document/9554054) (2021, IGARSS)
+#### 5.4.5 [RescueNet](https://ieeexplore.ieee.org/abstract/document/9412295) (2021,ICPR)
+#### 5.4.6 [PMM-SSNet](https://www.mdpi.com/2072-4292/12/24/4055#) (2022, remote sensing)
+#### 5.4.7 [MSBDA-Net](https://ieeexplore.ieee.org/document/10089353) (2022, CSDE)
+#### 5.4.8 [Dual-Tasks Siamese Transformer Framework](https://ieeexplore.ieee.org/document/9883139) (2022, IGARSS)
+#### 5.4.9 [Dynamic Cross Fusion Network](https://ieeexplore.ieee.org/document/9428414) (2021,ICME)
+#### 5.4.10 [Weakly-Supervised](https://ieeexplore.ieee.org/document/9565482) (2021, MIPR)
+#### 5.4.11 [Super-Resolution](https://ieeexplore.ieee.org/document/9883317) 
+#### 5.4.12 🔥[Incre-Trans](https://github.com/gjy-Ari/Incre-Trans/tree/main)  [code](https://github.com/gjy-Ari/Incre-Trans/tree/main) (2022, ISPRS)
+#### 5.4.13 [change detection on superpixel level](https://www.sciencedirect.com/science/article/pii/S1569843222001017) (2022, jaeog)
+#### 5.4.14 [extremely imbalanced datasets](https://www.sciencedirect.com/science/article/pii/S0926580522002011) 
+
+### 5.5 Disasters damaged Classifiction 
+#### 5.5.1 [BDANet-Building-Damage-Assessment](https://github.com/ShaneShen/BDANet-Building-Damage-Assessment) [code](https://github.com/ShaneShen/BDANet-Building-Damage-Assessment) 2022
+#### 5.5.2 [EarthquakeDamageDetection](https://github.com/JaneKravchenko/EarthquakeDamageDetection) [data](https://github.com/JaneKravchenko/EarthquakeDamageDetection)
+#### 5.5.3 [Building-damage-assessment-with-CNN](https://github.com/gokceyagmurbudak/Building-damage-assessment-with-CNN) 
+#### 5.5.4 [EBDC-Net](https://www.mdpi.com/1424-8220/22/15/5920) (2022, remote sensing)
+#### 5.5.5 [Improved NMS Algorithm and Faster R-CNN](https://www.mdpi.com/2072-4292/14/3/663) (2022, remote sensing)
+#### 5.5.6 [Improved CNN Classification](https://www.mdpi.com/2072-4292/12/2/260) (2020, remote sensing)
+#### 5.5.7 [Assessment of the Degree of Building Damage](https://www.mdpi.com/2072-4292/11/23/2858)
+#### 5.5.8 [improved CNN](https://ieeexplore.ieee.org/document/9765025) (2022, DASA)
+#### 5.5.9 [DamageMap](https://www.sciencedirect.com/science/article/pii/S221242092100501X) (2021, International Journal of Disaster Risk Reduction)
+### 5.6 Multi-Temporal Fusion
+#### 5.6.1  [Multi-Temporal Fusion](https://arxiv.org/pdf/2004.05525.pdf)
+#### 5.6.2  [Unet+Res+CRF](https://www.mdpi.com/2072-4292/11/20/2427)
+#### 5.6.3  🔥[Multi3Net](https://github.com/FrontierDevelopmentLab/multi3net)
 Multi3Net: Segmenting Flooded Buildings via Fusion of Multiresolution, Multisensor, and Multitemporal Satellite Imagery
 
+#### 5.6.4 [Feature Fusion](https://ieeexplore.ieee.org/document/9323644) (2020, IGARSS)
+#### 5.6.5 [Multi-feature](https://ieeexplore.ieee.org/document/9141701) (2020, ITOEC)
+#### 5.6.6 [Multi-Sensor Satellite-Imaging Data Fusion](https://ieeexplore.ieee.org/document/9688438)
 
+### 5.7 🔥VQA-AID
+#### 5.7.1  [Visual Question Answering](https://ieeexplore.ieee.org/document/9553578)   HurMic-VQA data (2021, IGARSS) 
+
+### 5.8 Economic Losses 
+#### 5.8.1 [insured typhoon-induced economic losses](https://www.sciencedirect.com/science/article/pii/S2212420922005532)
+#### 5.8.2 [Observational loss database of typological precast RC buildings damaged after the 2012 Emilia Earthquake](https://www.sciencedirect.com/science/article/pii/S2452321623002366)
+
+### 6.1  Material evaluation
+#### 6.1.1 [buildings considering different](https://www.sciencedirect.com/science/article/pii/S0141029623007174)
+#### 6.1.2 [Post-earthquake damage assessments of unreinforced masonry (URM) buildings by shake table test and numerical visualization](https://www.sciencedirect.com/science/article/pii/S1350630722008251)
 
 #### Challenges
 
@@ -136,7 +187,13 @@ Multi3Net: Segmenting Flooded Buildings via Fusion of Multiresolution, Multisens
 
 ### 🔥[emoji](https://emojipedia.org/)
 
+### Journals
+1. Expert Systems with Applications  IF=8.66
+2. ISPRS Journal of Photogrammetry and Remote Sensing IF 11.774
+3. Automation in Construction IF=10.517
+
 
 ```python
 
 ```
+
